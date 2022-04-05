@@ -129,7 +129,7 @@ round base plate, diameter ~130 cm
 
 small round platform ~18mm thick, diameter ~29 cm (x2)
 
-tape to go between axles and gears, and avoid any movement (depending on 3d printer precision)
+tape to go between axles and gears, to avoid any movement (depending on 3d printer precision)
 
 ![Screenshot](taco.jpg)
 
