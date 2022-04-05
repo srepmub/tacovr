@@ -5,11 +5,11 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
 # Links
 
-![blog post](http://blogfarts.blogspot.com/2022/03/taco-vr-infento-based-omnidirectional.html)
+![blog post announcement](http://blogfarts.blogspot.com/2022/03/taco-vr-infento-based-omnidirectional.html)
 
-https://www.youtube.com/watch?v=YHPXaN3H2HI
+![video showing mechanical movement](https://www.youtube.com/watch?v=YHPXaN3H2HI)
 
-https://www.youtube.com/watch?v=JtDdllBYgaA
+![picked up by thrillseeker] https://www.youtube.com/watch?v=JtDdllBYgaA
 
 # Similar projects
 
