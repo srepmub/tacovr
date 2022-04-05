@@ -21,6 +21,10 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
 (TODO)
 
+optional:
+
+(TODO)
+
 # Other parts/tools
 
 M6 reamer
