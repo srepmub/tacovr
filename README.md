@@ -129,6 +129,8 @@ round base plate, diameter ~130 cm
 
 small round platform ~18mm thick, diameter ~29 cm (x2)
 
+tape to go between axles and gears, and avoid any movement (depending on 3d printer precision)
+
 # Potential electronics components (ordered by srepmub)
 
 (as seen in a [dronebot workshop](https://www.youtube.com/watch?v=iY_4YOlpqyI))
