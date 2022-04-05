@@ -65,6 +65,12 @@ bearing block 40x40 hexa (x5)
 
 4 inch wheel (x14)
 
+knurled disc 2 stripes (x4)
+
+multi angle joint (x8)
+
+axle clamp (x5)
+
 optional:
 
 infento name emblem (x1)
