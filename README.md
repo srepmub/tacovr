@@ -25,6 +25,12 @@ optional:
 
 (TODO)
 
+# 3D-printed parts
+
+[bevel gear](https://www.thingiverse.com/thing:5179582) (x7)
+
+["slider"](https://www.thingiverse.com/thing:5254832) (x4)
+
 # Other parts/tools
 
 M6 reamer
