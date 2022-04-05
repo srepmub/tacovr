@@ -18,3 +18,13 @@ https://www.youtube.com/watch?v=JtDdllBYgaA
 # Infento parts list
 
 (TODO)
+
+# Potential electronics components (ordered by srepmub)
+
+https://www.robotshop.com/en/nema-23-bipolar-425ozin-42a-57x57x114mm-4-wires-stepper-motor.html
+
+https://www.robotshop.com/en/20-80v-24-72a-digital-stepper-motor-driver-nema-34.html
+
+https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056
+
+https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1
