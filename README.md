@@ -35,7 +35,7 @@ profile 80mm  (x4)
 
 profile 40mm  (x4)
 
-profile 5mm   (x4)
+profile spacer 5mm (x4)
 
 axle 550mm (x2)
 
@@ -43,7 +43,15 @@ axle 166mm (x3)
 
 axle 122mm (x2)
 
+spacer 50mm (x2)
 
+spacer 10mm (x4)
+
+spacer 5mm  (x5)
+
+spacer 2mm  (x3)
+
+spacer 1mm  (x8)
 
 optional:
 
