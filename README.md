@@ -23,6 +23,8 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
 # Potential electronics components (ordered by srepmub)
 
+(as seen in a [dronebot workshop](https://www.youtube.com/watch?v=iY_4YOlpqyI))
+
 [NEMA23 stepper motor](https://www.robotshop.com/en/nema-23-bipolar-425ozin-42a-57x57x114mm-4-wires-stepper-motor.html)
 
 [stepper driver](https://www.robotshop.com/en/20-80v-24-72a-digital-stepper-motor-driver-nema-34.html)
