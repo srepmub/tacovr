@@ -13,9 +13,9 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
 # Similar projects
 
-[RadixUniversal] https://www.youtube.com/watch?v=7YEqCsvkD60
+[RadixUniversal](https://www.youtube.com/watch?v=7YEqCsvkD60)
 
-[VR-crosswalk] https://www.youtube.com/watch?v=GcSgNpcmdVs
+[VR-crosswalk](https://www.youtube.com/watch?v=GcSgNpcmdVs)
 
 # Infento parts list
 
@@ -23,12 +23,12 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
 # Potential electronics components (ordered by srepmub)
 
-https://www.robotshop.com/en/nema-23-bipolar-425ozin-42a-57x57x114mm-4-wires-stepper-motor.html
+[NEMA23 stepper motor](https://www.robotshop.com/en/nema-23-bipolar-425ozin-42a-57x57x114mm-4-wires-stepper-motor.html)
 
-https://www.robotshop.com/en/20-80v-24-72a-digital-stepper-motor-driver-nema-34.html
+[stepper driver](https://www.robotshop.com/en/20-80v-24-72a-digital-stepper-motor-driver-nema-34.html)
 
-https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056
+[power supply](https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056)
 
-https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1
+[slip ring](https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1)
 
 ![Screenshot](taco.jpg)
