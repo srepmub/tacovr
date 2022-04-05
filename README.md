@@ -71,6 +71,15 @@ multi angle joint (x8)
 
 axle clamp (x5)
 
+clamping part with M6 thread (x12)
+
+clamping part without thread (x7)
+
+adjusting bolt M8x35 (x11)
+
+M8-16 washer (x58)
+
+
 optional:
 
 infento name emblem (x1)
