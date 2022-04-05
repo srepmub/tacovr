@@ -33,19 +33,17 @@ optional:
 
 # Other parts/tools
 
-M6 reamer
+M6 thread reamer
 
 M6 drill bit
 
-sunken head screws (x3)
+M8 sunken head screws (x3), for center hole in platform/base
 
-bungee cord (x2)
+bicycle bungee cord (x2)
 
-round base plate
+round base plate, diameter ~130 cm
 
-small round platform ~2 cm thick (x2)
-
-(TODO)
+small round platform ~18mm thick, diameter ~29 cm (x2)
 
 # Potential electronics components (ordered by srepmub)
 
