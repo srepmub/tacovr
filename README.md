@@ -13,9 +13,9 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
 # Similar projects
 
-https://www.youtube.com/watch?v=JtDdllBYgaA
+[RadixUniversal] https://www.youtube.com/watch?v=7YEqCsvkD60
 
-https://www.youtube.com/watch?v=GcSgNpcmdVs
+[VR-crosswalk] https://www.youtube.com/watch?v=GcSgNpcmdVs
 
 # Infento parts list
 
