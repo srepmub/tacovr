@@ -1,5 +1,5 @@
 # TACO VR
-An infento-based omnidirectional VR treadmill
+An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
 ![Screenshot](logo.png)
 
