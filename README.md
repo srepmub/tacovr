@@ -9,7 +9,7 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
 [video showing mechanical movement](https://www.youtube.com/watch?v=YHPXaN3H2HI)
 
-[picked up by thrillseeker] https://www.youtube.com/watch?v=JtDdllBYgaA
+[picked up by thrillseeker](https://www.youtube.com/watch?v=JtDdllBYgaA)
 
 # Similar projects
 
