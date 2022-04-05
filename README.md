@@ -83,6 +83,26 @@ T-positioning block (x200)
 
 profile nut short (x90)
 
+M6x12 bolt (x25)
+
+M6x20 bolt (x24)
+
+M6x25 bolt (x8)
+
+M6 nut (x8)
+
+M8x25 bolt (x3)
+
+M8x40 bolt (x14)
+
+M8x45 bolt (x4)
+
+M8x20 bolt flat head (x90)
+
+M8 nut (x4)
+
+M8 locknut (x4)
+
 optional:
 
 infento name emblem (x1)
