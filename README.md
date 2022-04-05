@@ -24,8 +24,11 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 # Other parts/tools
 
 M6 reamer
+
 M6 drill bit
+
 sunken head screws (x3)
+
 bungee cord (x2)
 
 # Potential electronics components (ordered by srepmub)
