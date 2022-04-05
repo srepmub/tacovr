@@ -20,14 +20,29 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 # Infento parts list
 
 profile 560mm (x4)
+
 profile 440mm (x2)
+
 profile 280mm (x4)
+
 profile 240mm (x4)
+
 profile 140mm (x1)
+
 profile 120mm (x5)
+
 profile 80mm  (x4)
+
 profile 40mm  (x4)
+
 profile 5mm   (x4)
+
+axle 550mm (x2)
+
+axle 166mm (x3)
+
+axle 122mm (x2)
+
 
 
 optional:
