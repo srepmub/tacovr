@@ -121,7 +121,7 @@ M6 thread reamer
 
 M6 drill bit
 
-M8 sunken head screws (x3), for center hole in platform/base
+M8x35 sunken head screws (x3), for center hole in platform/base
 
 bicycle bungee cord (x2)
 
