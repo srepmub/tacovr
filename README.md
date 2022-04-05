@@ -1,7 +1,7 @@
 # TACO VR
 An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
-![Screenshot](taco.jpg)
+![Screenshot](logo.png)
 
 # Links
 
@@ -29,4 +29,4 @@ https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-32
 
 https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1
 
-![Screenshot](logo.png)
+![Screenshot](taco.jpg)
