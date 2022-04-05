@@ -79,6 +79,9 @@ adjusting bolt M8x35 (x11)
 
 M8-16 washer (x58)
 
+T-positioning block (x200)
+
+profile nut short (x90)
 
 optional:
 
