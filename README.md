@@ -2,3 +2,7 @@
 An infento-based omnidirectional VR treadmill
 
 ![Screenshot](logo.png)
+
+# Infento parts list
+
+(TODO)
