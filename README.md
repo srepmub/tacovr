@@ -31,6 +31,8 @@ sunken head screws (x3)
 
 bungee cord (x2)
 
+(TODO)
+
 # Potential electronics components (ordered by srepmub)
 
 (as seen in a [dronebot workshop](https://www.youtube.com/watch?v=iY_4YOlpqyI))
