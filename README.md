@@ -36,6 +36,7 @@ sunken head screws (x3)
 bungee cord (x2)
 
 round base plate
+
 small round platform ~2 cm thick (x2)
 
 (TODO)
