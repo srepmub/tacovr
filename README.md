@@ -131,6 +131,8 @@ small round platform ~18mm thick, diameter ~29 cm (x2)
 
 tape to go between axles and gears, and avoid any movement (depending on 3d printer precision)
 
+![Screenshot](taco.jpg)
+
 # Potential electronics components (ordered by srepmub)
 
 (as seen in a [dronebot workshop](https://www.youtube.com/watch?v=iY_4YOlpqyI))
@@ -142,5 +144,3 @@ tape to go between axles and gears, and avoid any movement (depending on 3d prin
 [power supply](https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056)
 
 [slip ring](https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1)
-
-![Screenshot](taco.jpg)
