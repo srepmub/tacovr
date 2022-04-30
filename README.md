@@ -147,7 +147,7 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 Current status (rotation probably won't work like this):
 
-![Screenshot][elec.png)
+![Screenshot](elec.png)
 
 *Note: this requires extra infento parts, not listed above!!*
 
