@@ -145,6 +145,8 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [slip ring](https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1)
 
+[camera](https://www.youtube.com/watch?v=391dXDjqzXA)
+
 Current status (rotation probably won't work like this):
 
 ![Screenshot](elec.png)
