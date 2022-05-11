@@ -153,4 +153,4 @@ Current status (rotation probably won't work like this):
 
 *Note: this requires extra infento parts, not listed above!!*
 
-Next up is to add wiring, and start programming some basic moves.
+*After wiring and testing basic movement, I think I realized that the NEMA23 "beasts" do not provide enough torque (3Nm), without adding some sort of gearbox. It looks like there are also NEMA23 stepper motors with integrated gearboxes, providing much larger torque.. I may try one of those.*
