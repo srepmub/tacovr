@@ -135,9 +135,11 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 # Potential electronics components (ordered by srepmub)
 
-(as seen in a [dronebot workshop](https://www.youtube.com/watch?v=iY_4YOlpqyI))
+(as partially seen in a [dronebot workshop](https://www.youtube.com/watch?v=iY_4YOlpqyI))
 
-[NEMA23 stepper motor](https://www.robotshop.com/en/nema-23-bipolar-425ozin-42a-57x57x114mm-4-wires-stepper-motor.html)
+[NEMA23 stepper motor](https://ican-motor.com/product/planetary-stepper-motor/#tab-id-3)
+
+(after some testing, it seems that we need gearboxes or perhaps move to NEMA34 to have enough torque)
 
 [stepper driver](https://www.robotshop.com/en/20-80v-24-72a-digital-stepper-motor-driver-nema-34.html)
 
@@ -147,12 +149,8 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [camera](https://www.youtube.com/watch?v=391dXDjqzXA)
 
-Current status (rotation probably won't work like this):
+Current status:
 
 ![Screenshot](elec.png)
 
 *Note: this requires extra infento parts, not listed above!!*
-
-*After wiring and testing basic movement, I realized that the NEMA23 "beasts" do not provide much torque (3Nm), especially at high speed, without adding some sort of gearbox. It looks like there are also NEMA23 stepper motors with integrated gearboxes, providing much larger torque..*
-
-[torgue speed curve for powerful geared stepper](https://ican-motor.com/product/planetary-stepper-motor/#tab-id-3)
