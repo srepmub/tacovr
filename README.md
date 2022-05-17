@@ -139,7 +139,7 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [NEMA23 stepper motor](https://ican-motor.com/product/planetary-stepper-motor/#tab-id-3)
 
-(after some testing, it seems that we need gearboxes or perhaps move to NEMA34 to have enough torque)
+(after some testing, it seems that we need gearboxes to have enough torque)
 
 [stepper driver](https://www.robotshop.com/en/20-80v-24-72a-digital-stepper-motor-driver-nema-34.html)
 
