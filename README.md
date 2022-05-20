@@ -141,7 +141,7 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 (after some testing, it seems that we need gearboxes to have enough torque)
 
-[stepper driver](https://www.robotshop.com/en/20-80v-24-72a-digital-stepper-motor-driver-nema-34.html)
+[stepper driver](https://www.omc-stepperonline.com/digital-stepper-driver-2-4-7-2a-20-80vdc-for-nema-34-stepper-motor-cnc-drive-dm860i)
 
 [power supply](https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056)
 
