@@ -139,7 +139,9 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [NEMA23 stepper motor](https://ican-motor.com/product/planetary-stepper-motor/#tab-id-3)
 
-(after some testing, it seems that we need gearboxes to have enough torque)
+[NEMA23 stepper motor](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-plm-series-planetary-gearbox-23hs30-2904s-plm23-g10-d8)
+
+(after some testing, it seems that we need gearboxes to have enough torque. ordered these two to test.)
 
 [stepper driver](https://www.omc-stepperonline.com/digital-stepper-driver-2-4-7-2a-20-80vdc-for-nema-34-stepper-motor-cnc-drive-dm860i)
 
