@@ -147,9 +147,9 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 tracking feet:
 
-pixy2 camera? tried it, but seems too much hassle to get detection reliable in different lighting conditions..
+[pixy2 camera](https://pixycam.com/pixy2/)
 
-magnets? potential interference from stepper motors.
+(camera suspended on leg for now, observing marks on platform and feet to determine platform movement)
 
 Current status:
 
