@@ -149,7 +149,13 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [slip ring](https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1)
 
+[magnet tracking](https://www.youtube.com/watch?v=fJlgDIO3oL8)
+
 [camera](https://www.youtube.com/watch?v=391dXDjqzXA)
+
+after playing with above camera, this may be simpler/cheaper/more reliable:
+
+[magnet tracking](https://www.youtube.com/watch?v=fJlgDIO3oL8)
 
 Current status:
 
