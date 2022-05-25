@@ -145,9 +145,11 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [slip ring](https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1)
 
-to track the feet, would the following work? (bind magnet on top of foot, integrate magnetometer in platform? will test)
+tracking feet:
 
-[magnetometer](https://www.circuitbasics.com/how-to-setup-a-magnetometer-on-the-arduino/)
+pixy2 camera? tried it, but seems too much hassle to get detection reliable in different lighting conditions..
+
+magnets? potential interference from stepper motors.
 
 Current status:
 
