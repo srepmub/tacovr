@@ -149,7 +149,7 @@ tracking feet:
 
 [pixy2 camera](https://pixycam.com/pixy2/)
 
-(camera suspended on leg for now, observing marks on platform and feet to determine platform movement)
+(camera suspended on leg for now, observing marks on platform and feet to determine platform movement, as well as angle using color codes)
 
 Current status:
 
