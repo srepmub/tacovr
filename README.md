@@ -153,7 +153,7 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [camera](https://www.youtube.com/watch?v=391dXDjqzXA)
 
-after playing with above camera, this may be simpler/cheaper/more reliable:
+after playing with above camera, this seems simpler/cheaper/more reliable:
 
 [magnet tracking](https://www.youtube.com/watch?v=fJlgDIO3oL8)
 
