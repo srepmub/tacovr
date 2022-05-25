@@ -137,17 +137,15 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 (as partially seen in a [dronebot workshop](https://www.youtube.com/watch?v=iY_4YOlpqyI))
 
-[NEMA23 stepper motor](https://ican-motor.com/product/planetary-stepper-motor/#tab-id-3)
-
 [NEMA23 stepper motor](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-plm-series-planetary-gearbox-23hs30-2904s-plm23-g10-d8)
-
-(after some testing, it seems that we need gearboxes to have enough torque. ordered these two to test.)
 
 [stepper driver](https://www.omc-stepperonline.com/digital-stepper-driver-2-4-7-2a-20-80vdc-for-nema-34-stepper-motor-cnc-drive-dm860i)
 
 [power supply](https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056)
 
 [slip ring](https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1)
+
+to track the feet, would the following work? (bind magnet on top of foot, integrate magnetometer in platform? will test)
 
 [magnetometer](https://www.circuitbasics.com/how-to-setup-a-magnetometer-on-the-arduino/)
 
