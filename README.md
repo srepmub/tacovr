@@ -147,9 +147,7 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 tracking feet:
 
-[pixy2 camera](https://pixycam.com/pixy2/)
-
-(camera suspended on leg for now, observing marks on platform and feet to determine platform movement, as well as angle using color codes)
+magnets or cameras seem complicated.. so maybe just use attach 3 wires to each foot and triangulate pos using rotary encoders..?
 
 Current status:
 
