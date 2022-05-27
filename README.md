@@ -145,9 +145,9 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [slip ring](https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1)
 
-tracking feet:
+[pixy2 camera](https://pixycam.com/pixy2/)
 
-magnets or cameras seem complicated.. so maybe just use attach 3 wires to each foot and triangulate pos using rotary encoders..?
+I think connecting two pixy2's to the _cars_ under the platforms will allow us to track the feet with respect to the platform (one sticker on foot, others in circle on platform). no need to correct for camera orientation, no hardware on feet except one sticker/special sock :)
 
 Current status:
 
