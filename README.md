@@ -147,7 +147,7 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [pixy2 camera](https://pixycam.com/pixy2/)
 
-I think connecting two pixy2's to the _cars_ under the platforms will allow us to track the feet with respect to the platform (one sticker on foot, others in circle on platform). no need to correct for camera orientation, no hardware on feet except one sticker/special sock :)
+I think connecting two pixy2's to the _cars_ under the platforms will allow us to track the feet with respect to the platform (one sticker on foot, one on platform center optionally for calibration). no need to correct for camera orientation, no hardware on feet except one sticker/special sock :)
 
 Current status:
 
