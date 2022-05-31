@@ -155,8 +155,20 @@ I think connecting two pixy2's to the _cars_ under the platforms will allow us t
 
 electronics: about 500 euros, infento: about 600 euros. will add extra infento parts for adding electronics, and calculate more precisely.
 
-Current status:
+# Current status
 
 ![Screenshot](elec.png)
+
+-testing movement of platforms with weaker stepper motors - works
+-testing rotation with weaker stepper motor - works
+-need to improve attachment to base, as it got a bit loose from testing
+-add slip ring and route powern cable through base
+-make video showing automatic movement
+-when new brackets arrive, replace motors with geared ones
+-make one platform follow leg using pixy2
+-install second pixy2 using i2c protocol
+-follow one leg at a time
+-make video showing walking/turning in several directions :-)
+-profit! oh wait, did I just put everything on github
 
 *Note: this requires extra infento parts, not listed above!!*
