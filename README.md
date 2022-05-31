@@ -147,7 +147,7 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 [power supply](https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056)
 
-[slip ring](https://www.amazon.nl/dp/B08NVK6C85/ref=pe_28126711_487102941_TE_SCE_3p_dp_1)
+[slip ring](https://botland.store/slip-connectors/7144-slip-ring-3-wire-10a-22mm-5904422360009.html)
 
 [pixy2 camera](https://pixycam.com/pixy2/)
 
