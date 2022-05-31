@@ -135,8 +135,6 @@ tape to go between axles and gears, to avoid any movement (depending on 3d print
 
 # Potential electronics components (ordered by srepmub)
 
-(as partially seen in a [dronebot workshop](https://www.youtube.com/watch?v=iY_4YOlpqyI))
-
 [NEMA23 stepper motor](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-plm-series-planetary-gearbox-23hs30-2904s-plm23-g10-d8)
 
 [needed brackets](https://www.omc-stepperonline.com/nema-23-bracket-for-high-precision-planetary-geared-motor-alloy-steel-bracket-st-m9)
