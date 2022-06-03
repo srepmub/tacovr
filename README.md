@@ -165,9 +165,9 @@ electronics: about 500 euros, infento: about 600 euros. will add extra infento p
 
 -testing rotation with weaker stepper motor - works
 
--improve attachment to base, as it got a bit loose from testing
+-improve attachment to base, as it got a bit loose from testing - much better now
 
--add slip ring and route powern cable through base
+-add slip ring and route power cable through base
 
 -connect all motors concurrently and route wires
 
