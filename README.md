@@ -9,6 +9,8 @@ An infento-based omnidirectional VR treadmill (unfinished prototype!)
 
 [video showing mechanical movement](https://www.youtube.com/watch?v=YHPXaN3H2HI)
 
+(video showing latest status](https://www.youtube.com/watch?v=lmJdy6oKbso)
+
 [appearance in thrillseeker tuesday newsday](https://www.youtube.com/watch?v=JtDdllBYgaA)
 
 # Similar projects
@@ -161,27 +163,17 @@ electronics: about 500 euros, infento: about 600 euros. will add extra infento p
 
 ![Screenshot](elec.png)
 
--testing movement of platforms with weaker stepper motors - works
+TODO 
 
--testing rotation with weaker stepper motor - works
+-add slip ring 
 
--improve attachment to base, as it got a bit loose from testing - much better now
+-replace motors with geared ones
 
--add slip ring and route power cable through base
-
--connect all motors concurrently and route wires
-
--make video showing automatic movement
-
--when new brackets arrive, replace motors with geared ones
+-connect two pixy2 cameras over I2C
 
 -make one platform follow leg using pixy2
-
--install second pixy2 using i2c protocol
 
 -follow one leg at a time
 
 -make video showing walking/turning in several directions :-)
-
--profit! oh wait, did I just put everything on github
 
