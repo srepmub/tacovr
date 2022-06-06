@@ -113,7 +113,7 @@ Will add extra Infento parts for adding electronics, and calculate more precisel
 
 - add slip ring
 - replace motors with geared ones
-- connect two pixy2 cameras over I2C
+- connect two pixy2 cameras over I2C (one is working, so _should_ be easy)
 - make one platform follow leg using pixy2
 - follow one leg at a time
 - make video showing walking/turning in several directions :-)
