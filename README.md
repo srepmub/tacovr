@@ -111,7 +111,6 @@ Will add extra Infento parts for adding electronics, and calculate more precisel
 
 ## TODO
 
-- add slip ring
 - replace motors with geared ones
 - connect two pixy2 cameras over I2C (one is working, so _should_ be easy)
 - make one platform follow leg using pixy2
