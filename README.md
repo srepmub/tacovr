@@ -107,11 +107,10 @@ Will add extra Infento parts for adding electronics, and calculate more precisel
 
 ## Current status
 
-![Screenshot](images/elec.png)
+![Screenshot](images/elec2.png)
 
 ## TODO
 
-- replace motors with geared ones
 - connect two pixy2 cameras over I2C (one is working, so _should_ be easy)
 - make one platform follow leg using pixy2
 - follow one leg at a time
