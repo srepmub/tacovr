@@ -95,14 +95,12 @@ optional:
 - [slip ring](https://botland.store/slip-connectors/7144-slip-ring-3-wire-10a-22mm-5904422360009.html)
 - [pixy2 camera](https://pixycam.com/pixy2/)
 
-I think connecting two pixy2's to the *cars* under the platforms will allow us to track the feet with respect to the platform (one sticker on foot, one on platform center optionally for calibration). no need to correct for camera orientation, no hardware on feet except one sticker/special sock :)
-
 *Note: extra Infento parts used to connect electronics not listed above!!*
 
 ## Cost estimation
 
 - electronics: about 500 euros,
-- Infento: about 600 euros.
+- Infento: about 700 euros. 
 
 Will add extra Infento parts for adding electronics, and calculate more precisely.
 
@@ -111,8 +109,8 @@ Will add extra Infento parts for adding electronics, and calculate more precisel
 ![Screenshot](images/elec2.png)
 
 ## TODO
-
-- connect two pixy2 cameras over I2C (one is working, so _should_ be easy)
-- make one platform follow leg using pixy2
-- follow one leg at a time
+- test rotational movement
+- calculate absolute feet positions to detect step down
+- investigate jitter at high platform speed
+- make stable foot mirror moving foot, so everything stays centered
 - make video showing walking/turning in several directions :-)
