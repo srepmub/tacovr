@@ -21,6 +21,8 @@ An [Infento](https://www.infento.com/)-based omnidirectional VR treadmill (unfin
 
 ![parts](images/parts.jpg)
 
+order them at the [infento parts shop](https://www.infento.com/parts/)
+
 - profile 560mm (x4)
 - profile 440mm (x2)
 - profile 280mm (x4)
