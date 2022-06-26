@@ -63,11 +63,6 @@ An [Infento](https://www.infento.com/)-based omnidirectional VR treadmill (unfin
 - M8 nut (x4)
 - M8 locknut (x4)
 
-optional:
-
-- Infento name emblem (x1)
-- protect cap (x4, or more)
-
 ## Electronics components
 
 - [arduino](https://store.arduino.cc/products/arduino-mega-2560-rev3)
