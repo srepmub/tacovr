@@ -71,8 +71,10 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 - M8 locknut (x4)
 - toothed belt pulley 26T + protection ring (x5)
 - toothed belt pulley 46T + protection ring
-- toothed belt 100T
-
+- toothed belt 100T (probably 118T works better)
+- toothed belt 118T (x2)
+- profile connector B (x2)
+- 
 ## Electronics components
 
 - [arduino mega 2560](https://store.arduino.cc/products/arduino-mega-2560-rev3), E40,30
