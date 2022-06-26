@@ -97,7 +97,6 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 - M6 thread reamer
 - M6 drill bit
 - M8x35 sunken head screws (x3), for center hole in platform/base
-- bicycle bungee cord (x2)
 - round base plate, diameter ~130 cm
 - small round platform ~18mm thick, diameter ~29 cm (x2)
 - tape to go between axles and gears, to avoid any movement (depending on 3d printer precision)
