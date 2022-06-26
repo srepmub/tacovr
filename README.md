@@ -68,6 +68,17 @@ optional:
 - Infento name emblem (x1)
 - protect cap (x4, or more)
 
+## Electronics components
+
+- [arduino](https://store.arduino.cc/products/arduino-mega-2560-rev3)
+- [NEMA23 stepper motor](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-plm-series-planetary-gearbox-23hs30-2904s-plm23-g10-d8)
+- [stepper motor brackets](https://www.omc-stepperonline.com/nema-23-bracket-for-high-precision-planetary-geared-motor-alloy-steel-bracket-st-m9)
+  - (the planetary gearbox does not fit in a standard NEMA23 bracket..)
+- [stepper driver](https://www.omc-stepperonline.com/digital-stepper-driver-2-4-7-2a-20-80vdc-for-nema-34-stepper-motor-cnc-drive-dm860i)
+- [power supply](https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056)
+- [slip ring](https://botland.store/slip-connectors/7144-slip-ring-3-wire-10a-22mm-5904422360009.html)
+- [pixy2 camera](https://pixycam.com/pixy2/)
+
 ## 3D-printed parts
 
 - [bevel gear](https://www.thingiverse.com/thing:5179582) (x7)
@@ -84,19 +95,6 @@ optional:
 - tape to go between axles and gears, to avoid any movement (depending on 3d printer precision)
 
 ![Screenshot](images/taco.jpg)
-
-## Potential electronics components (ordered by @srepmub)
-
-- [arduino](https://store.arduino.cc/products/arduino-mega-2560-rev3)
-- [NEMA23 stepper motor](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-plm-series-planetary-gearbox-23hs30-2904s-plm23-g10-d8)
-- [stepper motor brackets](https://www.omc-stepperonline.com/nema-23-bracket-for-high-precision-planetary-geared-motor-alloy-steel-bracket-st-m9)
-  - (the planetary gearbox does not fit in a standard NEMA23 bracket..)
-- [stepper driver](https://www.omc-stepperonline.com/digital-stepper-driver-2-4-7-2a-20-80vdc-for-nema-34-stepper-motor-cnc-drive-dm860i)
-- [power supply](https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056)
-- [slip ring](https://botland.store/slip-connectors/7144-slip-ring-3-wire-10a-22mm-5904422360009.html)
-- [pixy2 camera](https://pixycam.com/pixy2/)
-
-*Note: extra Infento parts used to connect electronics not listed above!!*
 
 ## Cost estimation
 
