@@ -67,7 +67,7 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 
 ## Electronics components
 
-- [arduino](https://store.arduino.cc/products/arduino-mega-2560-rev3), E40,30
+- [arduino mega 2560](https://store.arduino.cc/products/arduino-mega-2560-rev3), E40,30
 - [NEMA23 stepper motor](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-plm-series-planetary-gearbox-23hs30-2904s-plm23-g10-d8), E55,65 (x3)
 - [stepper motor brackets](https://www.omc-stepperonline.com/nema-23-bracket-for-high-precision-planetary-geared-motor-alloy-steel-bracket-st-m9)
   - (the planetary gearbox does not fit in a standard NEMA23 bracket..) E2,51 (x3)
