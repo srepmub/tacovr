@@ -67,14 +67,14 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 
 ## Electronics components
 
-- [arduino](https://store.arduino.cc/products/arduino-mega-2560-rev3)
-- [NEMA23 stepper motor](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-plm-series-planetary-gearbox-23hs30-2904s-plm23-g10-d8)
+- [arduino](https://store.arduino.cc/products/arduino-mega-2560-rev3), E40,30
+- [NEMA23 stepper motor](https://www.omc-stepperonline.com/nema-23-stepper-motor-l-76mm-gear-ratio-10-1-plm-series-planetary-gearbox-23hs30-2904s-plm23-g10-d8), E55,65 (x3)
 - [stepper motor brackets](https://www.omc-stepperonline.com/nema-23-bracket-for-high-precision-planetary-geared-motor-alloy-steel-bracket-st-m9)
-  - (the planetary gearbox does not fit in a standard NEMA23 bracket..)
-- [stepper driver](https://www.omc-stepperonline.com/digital-stepper-driver-2-4-7-2a-20-80vdc-for-nema-34-stepper-motor-cnc-drive-dm860i)
-- [power supply](https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056)
-- [slip ring](https://botland.store/slip-connectors/7144-slip-ring-3-wire-10a-22mm-5904422360009.html)
-- [pixy2 camera](https://pixycam.com/pixy2/)
+  - (the planetary gearbox does not fit in a standard NEMA23 bracket..) E2,51 (x3)
+- [stepper driver](https://www.omc-stepperonline.com/digital-stepper-driver-2-4-7-2a-20-80vdc-for-nema-34-stepper-motor-cnc-drive-dm860i) E35,15 (x3)
+- [power supply](https://www.conrad.com/p/mean-well-rsp-320-24-acdc-psu-module-enclosure-134-a-3216-w-24-v-dc-1293056) E70,99
+- [slip ring](https://botland.store/slip-connectors/7144-slip-ring-3-wire-10a-22mm-5904422360009.html) E21,48
+- [pixy2 camera](https://pixycam.com/pixy2/) E66,31 (x2)
 
 ## 3D-printed parts
 
