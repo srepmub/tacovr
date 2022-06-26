@@ -106,8 +106,9 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 
 ## Cost estimation
 
-- electronics: E545.32 (excluding shipping)
-- Infento: about 700 euros. 
+- electronics: E545,32 (excluding shipping)
+- infento parts: E760,83 (excluding shipping)
+- total: E1306,15, more realistically around E1500 including shipping, wiring, wooden parts..
 
 Will add extra Infento parts for adding electronics, and calculate more precisely.
 
