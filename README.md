@@ -109,8 +109,6 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 - infento parts: E760,83 (excluding shipping)
 - total: E1306,15, more realistically around E1500 including shipping, wiring, wooden parts..
 
-Will add extra Infento parts for adding electronics, and calculate more precisely.
-
 ## Current status
 
 ![Screenshot](images/elec2.png)
