@@ -115,7 +115,7 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 
 ## TODO
 - test rotational movement
-- calculate absolute feet positions to detect step down
+- detect step-down (speed approaching 0?)
 - investigate jitter at high platform speed
 - make stable foot mirror moving foot, so everything stays centered
 - make video showing walking/turning in several directions :-)
