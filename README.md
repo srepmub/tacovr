@@ -111,7 +111,7 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 
 ## Current status
 
-![Screenshot](images/elec2.png)
+![Screenshot](images/status.jpg)
 
 ## TODO
 - test rotational movement
