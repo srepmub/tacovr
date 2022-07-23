@@ -11,33 +11,39 @@ AccelStepper stepperZ(AccelStepper::DRIVER, 7, 6);
 uint8_t buf[256];
 uint8_t buf2[256];
 
-
 uint8_t getbl[6];
 uint8_t lampon[6];
 
 int CALIBXL = 143; // fill in before use!!
 int CALIBYL = 63; // fill in before use!!
-
 int CALIBXR = 147; // fill in before use!!
 int CALIBYR = 68; // fill in before use!!
 
+//int triggerxl = CALIBXL;
+//int triggeryl = CALIBYL;
+//int triggerxr = CALIBXR;
+//int triggeryr = CALIBYR;
+
 int MAXSPEED = 2000; // max 2800
 int MAXACCEL = 700; // max 25000
-
 int MAXRSPEED = 500; // max 1000
 int MAXRACCEL = 700; // max 1000
 
-int INIT_R = 1;
-int INIT_L = 2;
-int STEP_L = 3;
-int STEP_R = 4;
+int newxr = 0;
+int newyr = 0;
+int newxl = 0;
+int newyl = 0;
+
+int INIT_L = 1;
+int INIT_R = 2;
+int WAIT_L = 3;
+int STEP_L = 4;
+int WAIT_R = 5;
+int STEP_R = 6;
 int state = 0;
 
 uint32_t lastpoll = 0;
 
-int lastr = 0;
-int lastl = 0;
-int lastz = 0;
 
 void setup()
 {
@@ -67,20 +73,21 @@ void setup()
 
     stepperL.setMaxSpeed(MAXSPEED);
     stepperL.setAcceleration(MAXACCEL);
-    
+
     stepperR.setMaxSpeed(MAXSPEED);
     stepperR.setAcceleration(MAXACCEL);
 
     stepperZ.setMaxSpeed(MAXRSPEED);
     stepperZ.setAcceleration(MAXRACCEL);
 
-    state = INIT_R;
-    
     Serial.println("Let's go");
+
+    state = INIT_L;
+    Serial.println("INIT_L");
 }
 
 void RxCallbackL(const uint8_t status) {
-    
+
     if (status == 0)
     {
         //Serial.println("R: received:");
@@ -89,43 +96,60 @@ void RxCallbackL(const uint8_t status) {
             Serial.println(buf2[2]);
         }
         else if(buf2[3] != 14) {
-            Serial.println("L: unexpected payload size!");
-            Serial.println(buf2[3]);
+            if(buf2[3] != 0) {
+                Serial.println("L: unexpected payload size!");
+                Serial.println(buf2[3]);
+            }
         }
         else {
             uint8_t newy = buf2[11]<<8|buf2[10];
+            newyl = newy;
             int posy = stepperZ.currentPosition();
 
             uint8_t newx = buf2[9]<<8|buf2[8];
+            newxl = newx;
             int posx = stepperL.currentPosition();
-            
-            if(state == INIT_L && abs(newy-CALIBYL) <= 20 && abs(newx-CALIBXL) <= 20) {
 
-              // stop
-              if(abs(newy-CALIBYL) <= 5 && abs(newx-CALIBXL) <= 5) {
-                  stepperL.moveTo(posx);
-                  stepperZ.moveTo(posy);
-
-                  state = STEP_L;
-              }
-
-              // move
-              else {
-                int newposy = posy-10*(CALIBYL-newy); // TODO more precise factor
-                stepperZ.moveTo(newposy);
-            
-                int newposx = posx+10*(CALIBXL-newx); // TODO more precise factor
-                if(newposx > 900)
-                    newposx = 900;
-                else if (newposx < -900)
-                    newposx = -900;
-                stepperR.moveTo(-newposx);
-                stepperL.moveTo(newposx);
-              }
+//            if (state == WAIT_L && (abs(newy-triggeryl) > 5 || abs(newx-triggerxl) > 5)) {
+            if (state == WAIT_L && (abs(newy-CALIBYL) > 5 || abs(newx-CALIBXL) > 5)) {
+  
+                state = STEP_L;
+                Serial.println("STEP_L");
             }
 
-            lastl = posx;
-            lastz = posy;
+            if(state == STEP_L || (state == INIT_L && abs(newy-CALIBYL) <= 20 && abs(newx-CALIBXL) <= 20)) {
+
+                // stop condition
+                if(abs(newy-CALIBYL) <= 5 && abs(newx-CALIBXL) <= 5) {
+                    stepperL.moveTo(posx);
+                    stepperZ.moveTo(posy);
+
+                    if(state == INIT_L) {
+                        state = INIT_R;
+                        Serial.println("INIT_R");
+                    } else {
+                        state = WAIT_R;
+                        Serial.println("WAIT_R");
+
+//                        triggerxr = newxr;
+//                        triggeryr = newyr;
+                    }
+                }
+
+                // otherwise move
+                else {
+                    int newposy = posy-10*(newy-CALIBYL); // TODO more precise factor
+                    stepperZ.moveTo(newposy);
+
+                    int newposx = posx+10*(CALIBXL-newx); // TODO more precise factor
+                    if(newposx > 900)
+                      newposx = 900;
+                    else if (newposx < -900)
+                      newposx = -900;
+                    stepperR.moveTo(-newposx);
+                    stepperL.moveTo(newposx);
+                }
+            }
         }
     }
     else
@@ -136,7 +160,6 @@ void RxCallbackL(const uint8_t status) {
 }
 
 void RxCallbackR(const uint8_t status) {
-    
     if (status == 0)
     {
         //Serial.println("R: received:");
@@ -145,43 +168,56 @@ void RxCallbackR(const uint8_t status) {
             Serial.println(buf[2]);
         }
         else if(buf[3] != 14) {
-            Serial.println("R: unexpected payload size!");
-            Serial.println(buf[3]);
+            if(buf[3] != 0) {
+                Serial.println("R: unexpected payload size!");
+                Serial.println(buf[3]);
+            }
         }
         else {
             uint8_t newy = buf[11]<<8|buf[10];
             int posy = stepperZ.currentPosition();
+            newyr = newy;
 
             uint8_t newx = buf[9]<<8|buf[8];
             int posx = stepperR.currentPosition();
-            
-            if(state == INIT_R && abs(newy-CALIBYR) <= 20 && abs(newx-CALIBXR) <= 20) {
+            newxl = newx;
 
-              // stop
-              if(abs(newy-CALIBYR) <= 5 && abs(newx-CALIBXR) <= 5) {  
-                  stepperR.moveTo(posx);
-                  stepperZ.moveTo(posy);
-                  
-                  state = INIT_L;
-              }
-
-              // move
-              else {
-                int newposy = posy-10*(CALIBYR-newy); // TODO more precise factor
-                stepperZ.moveTo(newposy);
-            
-                int newposx = posx+10*(CALIBXR-newx); // TODO more precise factor
-                if(newposx > 900)
-                    newposx = 900;
-                else if (newposx < -900)
-                    newposx = -900;
-                stepperR.moveTo(newposx);
-                stepperL.moveTo(-newposx);
-              }
+//            if (state == WAIT_R && (abs(newy-triggeryr) > 5 || abs(newx-triggerxr) > 5)) {
+            if (state == WAIT_R && (abs(newy-CALIBYR) > 5 || abs(newx-CALIBXR) > 5)) {
+  
+                state = STEP_R;
+                Serial.println("STEP_R");
             }
 
-            lastr = posx;
-            lastz = posy;
+            if (state == STEP_R || (state == INIT_R && abs(newy-CALIBYR) <= 20 && abs(newx-CALIBXR) <= 20)) {
+
+                // check stop condition
+                if(abs(newy-CALIBYR) <= 5 && abs(newx-CALIBXR) <= 5) { // TODO add speed (close to) 0 check
+                    stepperR.moveTo(posx);
+                    stepperZ.moveTo(posy);
+
+                    state = WAIT_L;
+                    Serial.println("WAIT_L");
+
+//                    triggerxl = newxl;
+//                    triggeryl = newyl;
+                }
+
+                // otherwise move
+                else {
+                    int newposy = posy-10*(CALIBYR-newy); // TODO more precise factor
+                    stepperZ.moveTo(newposy);
+
+                    int newposx = posx+10*(CALIBXR-newx); // TODO more precise factor
+                    if(newposx > 900)
+                        newposx = 900;
+                    else if (newposx < -900)
+                        newposx = -900;
+                    stepperR.moveTo(newposx);
+                    stepperL.moveTo(-newposx);
+                }
+            }
+
         }
     }
     else
@@ -192,25 +228,12 @@ void RxCallbackR(const uint8_t status) {
 }
 
 
-void loop_debug() 
-{
-/*    if( stepperZ.currentPosition() >= 490)
-        stepperZ.moveTo(0);
-    else if (stepperZ.currentPosition() <= 10)
-        stepperZ.moveTo(500); */ 
-
-    stepperL.moveTo(100);
-    stepperL.run();
-}
-
-
 void loop()
 {
     uint32_t m = micros();
     if(m > lastpoll+1000000/60) {
         lastpoll = m;
 
-       
         uint8_t status = nI2C->Write(pixyR, getbl, 6);
         if (status) {
             Serial.print("R: write status: ");
@@ -235,7 +258,7 @@ void loop()
             Serial.println(status);
         }
 
-    }  
+    }
 
     stepperR.run();
     stepperL.run();
