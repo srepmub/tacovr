@@ -114,8 +114,7 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 ![Screenshot](images/status.jpg)
 
 ## TODO
-- test rotational movement
 - detect step-down (speed approaching 0?)
 - investigate jitter at high platform speed
-- make stable foot mirror moving foot, so everything stays centered
+- intestigate slack in rotation (need 48v/nema34?)
 - make video showing walking/turning in several directions :-)
