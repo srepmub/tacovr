@@ -13,9 +13,18 @@ uint8_t buf[256];
 uint8_t getbl[6];
 uint8_t lampon[6];
 
-int CALIBXL = 140;
-int CALIBXR = 146;
+int CALIBXL = 140; // fill in before use!!
+int CALIBYL = 63; // fill in before use!!
 
+int CALIBXR = 146; // fill in before use!!
+int CALIBYR = 69; // fill in before use!!
+
+int MAXSPEED = 2000; // max 2800
+int MAXACCEL = 700; // max 25000
+
+int MAXRSPEED = 500; // max 1000
+int MAXRACCEL = 700; // max 1000
+    
 uint32_t lastpoll = 0;
 
 
@@ -46,8 +55,11 @@ void setup()
     nI2C->Write(pixyR, lampon, 6);
     nI2C->Write(pixyL, lampon, 6);
 
-    stepperR.setMaxSpeed(2500);
-    stepperR.setAcceleration(12000);
+    stepperR.setMaxSpeed(MAXSPEED);
+    stepperR.setAcceleration(MAXACCEL);
+
+    stepperZ.setMaxSpeed(MAXRSPEED);
+    stepperZ.setAcceleration(MAXRACCEL);
 
     Serial.println("Let's go");
 }
@@ -72,23 +84,30 @@ void RxCallbackR(const uint8_t status) {
             Serial.println(buf[3]);
         }
         else {
+            uint8_t newy = buf[11]<<8|buf[10];
+            int posy = stepperZ.currentPosition();
+
             uint8_t newx = buf[9]<<8|buf[8];
+            int posx = stepperR.currentPosition();
 
-            int pos;
-            pos = stepperR.currentPosition();
+            // stop
+            if(abs(newy-CALIBYR) <= 5 && abs(newx-CALIBXR) <= 5) {         
+                stepperR.moveTo(posx);
+                stepperZ.moveTo(posy);
+            }
 
-            Serial.println(newx-CALIBXR);
-            
-            if(abs(newx-CALIBXR) <= 3)
-              stepperR.moveTo(pos);
+            // move
             else {
-              int newpos = pos+10*(CALIBXR-newx);
-              if(newpos > 900)
-                  newpos = 900;
-              else if (newpos < -900)
-                  newpos = -900;
-              stepperR.moveTo(newpos);
-            }     
+                int newposy = posy-10*(CALIBYR-newy); // TODO more precise factor
+                stepperZ.moveTo(newposy);
+            
+                int newposx = posx+10*(CALIBXR-newx); // TODO more precise factor
+                if(newposx > 900)
+                    newposx = 900;
+                else if (newposx < -900)
+                    newposx = -900;
+                stepperR.moveTo(newposx);
+            }
         }
     }
     else
@@ -96,6 +115,18 @@ void RxCallbackR(const uint8_t status) {
         Serial.print("R: rx error: ");
         Serial.println(status);
     }
+}
+
+
+void loop_test() 
+{
+/*    if( stepperZ.currentPosition() >= 490)
+        stepperZ.moveTo(0);
+    else if (stepperZ.currentPosition() <= 10)
+        stepperZ.moveTo(500); */
+
+    stepperZ.moveTo(100);
+    stepperZ.run();
 }
 
 
@@ -130,8 +161,9 @@ void loop()
             Serial.println(status);
         }
 
-    } 
+    }  
 
     stepperR.run();
-
+    stepperL.run();
+    stepperZ.run();
 }
