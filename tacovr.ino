@@ -55,6 +55,9 @@ void setup()
     nI2C->Write(pixyR, lampon, 6);
     nI2C->Write(pixyL, lampon, 6);
 
+    stepperL.setMaxSpeed(MAXSPEED);
+    stepperL.setAcceleration(MAXACCEL);
+    
     stepperR.setMaxSpeed(MAXSPEED);
     stepperR.setAcceleration(MAXACCEL);
 
@@ -107,6 +110,7 @@ void RxCallbackR(const uint8_t status) {
                 else if (newposx < -900)
                     newposx = -900;
                 stepperR.moveTo(newposx);
+                stepperL.moveTo(-newposx);
             }
         }
     }
@@ -118,15 +122,15 @@ void RxCallbackR(const uint8_t status) {
 }
 
 
-void loop_test() 
+void loop_debug() 
 {
 /*    if( stepperZ.currentPosition() >= 490)
         stepperZ.moveTo(0);
     else if (stepperZ.currentPosition() <= 10)
-        stepperZ.moveTo(500); */
+        stepperZ.moveTo(500); */ 
 
-    stepperZ.moveTo(100);
-    stepperZ.run();
+    stepperL.moveTo(100);
+    stepperL.run();
 }
 
 
