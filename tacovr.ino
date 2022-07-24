@@ -25,9 +25,9 @@ int CALIBYR = 68; // fill in before use!!
 //int triggeryr = CALIBYR;
 
 int MAXSPEED = 2000; // max 2800
-int MAXACCEL = 700; // max 25000
+int MAXACCEL = 500; // max 25000
 int MAXRSPEED = 500; // max 1000
-int MAXRACCEL = 700; // max 1000
+int MAXRACCEL = 500; // max 1000
 
 int newxr = 0;
 int newyr = 0;
@@ -111,7 +111,7 @@ void RxCallbackL(const uint8_t status) {
             int posx = stepperL.currentPosition();
 
 //            if (state == WAIT_L && (abs(newy-triggeryl) > 5 || abs(newx-triggerxl) > 5)) {
-            if (state == WAIT_L && (abs(newy-CALIBYL) > 5 || abs(newx-CALIBXL) > 5)) {
+            if (state == WAIT_L && (abs(newy-CALIBYL) > 8 || abs(newx-CALIBXL) > 8)) {
   
                 state = STEP_L;
                 Serial.println("STEP_L");
@@ -183,7 +183,7 @@ void RxCallbackR(const uint8_t status) {
             newxl = newx;
 
 //            if (state == WAIT_R && (abs(newy-triggeryr) > 5 || abs(newx-triggerxr) > 5)) {
-            if (state == WAIT_R && (abs(newy-CALIBYR) > 5 || abs(newx-CALIBXR) > 5)) {
+            if (state == WAIT_R && (abs(newy-CALIBYR) > 8 || abs(newx-CALIBXR) > 8)) {
   
                 state = STEP_R;
                 Serial.println("STEP_R");
