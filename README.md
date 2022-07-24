@@ -111,7 +111,7 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 
 ## Current status
 
-![Screenshot](images/status.jpg)
+![Screenshot](images/status2.jpg)
 
 ## TODO
 - detect step-down (speed approaching 0?)
