@@ -9,7 +9,7 @@ An [Infento](https://www.infento.com/)-based omnidirectional VR treadmill (unfin
 - [blog post announcement](http://blogfarts.blogspot.com/2022/03/taco-vr-infento-based-omnidirectional.html)
 - [video showing movement mechanism](https://www.youtube.com/watch?v=YHPXaN3H2HI)
 - [video showing automatic movement](https://www.youtube.com/watch?v=lmJdy6oKbso)
-- [video showing feet tracking](https://www.youtube.com/watch?v=dd_dxFAD24o)
+- [video showing feet tracking](https://www.youtube.com/watch?v=VliX2Mjm0tE)
 - [appearance in thrillseeker tuesday newsday](https://www.youtube.com/watch?v=JtDdllBYgaA)
 
 ## Similar projects
