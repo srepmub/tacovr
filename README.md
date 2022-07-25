@@ -109,6 +109,11 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 - infento parts: E760,83 (excluding shipping)
 - total: E1306,15, more realistically around E1500 including shipping, wiring, wooden parts..
 
+## Background information/calculations
+
+### TODO what is the acceleration of a typical foot while walking?
+### TODO torque/acceleration/sound level of hydraulics?
+
 ## Current status
 
 ![Screenshot](images/status2.jpg)
