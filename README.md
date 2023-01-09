@@ -87,7 +87,7 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 - [slip ring](https://botland.store/slip-connectors/7144-slip-ring-3-wire-10a-22mm-5904422360009.html) E21,48
 - [pixy2 camera](https://pixycam.com/pixy2/) E66,31 (x2)
 
-NOTE: stepper motors are probably not a great idea. my next iteration I will probably go with (teknic clearpath?) servo motors. these are more powerful, closed-loop, come with builtin drivers, and are practically silent.. as well as quite a bit more expensive.
+NOTE: stepper motors are probably not a great idea. my next iteration I will probably go with (teknic clearpath?) servo motors. servo motors are more powerful, closed-loop, come with builtin drivers, and are practically silent.. as well as quite a bit more expensive.
 
 ## 3D-printed parts
 
