@@ -121,6 +121,5 @@ measurements with the android app [physics toolbox accelerometer](https://play.g
 
 ## TODO
 - detect step-down (speed approaching 0?)
-- investigate jitter at high platform speed
-- intestigate slack in rotation (need 48v/nema34?)
+- test rotation using servo motor
 - make video showing walking/turning in several directions :-)
