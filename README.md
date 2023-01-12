@@ -113,8 +113,7 @@ NOTE: stepper motors are probably not a great idea. my next iteration I will pro
 
 ## Background information/calculations
 
-### TODO what is the acceleration of a typical foot while walking?
-### TODO torque/acceleration/sound level of hydraulics?
+measurements with the android app [physics toolbox accelerometer](https://play.google.com/store/apps/details?id=com.chrystianvieyra.android.physicstoolboxaccelerometer&hl=en&gl=US) show that the acceleration of my feet does not seem to exceed 1G for casual walking, and 2G for pretty rapid walking.
 
 ## Current status
 
