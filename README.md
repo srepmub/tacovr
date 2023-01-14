@@ -115,7 +115,9 @@ NOTE: stepper motors are probably not a great idea. for the next iteration I wil
 
 measurements with the android app [physics toolbox accelerometer](https://play.google.com/store/apps/details?id=com.chrystianvieyra.android.physicstoolboxaccelerometer&hl=en&gl=US) show that the acceleration of my feet does not seem to exceed 1G for casual walking, and 2G for pretty rapid walking.
 
-using a hanging weight and PTA again, I found that we may need on the order of 50Nm to rotate with 1G. this would mean that a NEMA34 servo motor would not even cut it. the teknic NEMA56 motors look like they could do this with a gear reducer, but this is getting pretty expensive and somewhat scarily powerful..
+using a hanging weight and PTA again, I found that we may need on the order of 50Nm to rotate just the platform itself with 1G. this would mean that a NEMA34 servo motor would not even cut it. the teknic NEMA56 motors look like they could do this with a gear reducer, but this is getting pretty expensive and somewhat scarily powerful..
+
+from this [video on youtube](https://www.youtube.com/watch?v=SSd0HToGUCg), we can calculate approximately the required torque. a quick calculation (assuming an 80kg person on top), gives about 90Nm for platform+person. I will redo this calculation more carefully, but it corresponds with the 50Nm above (the person is way more concentrated in the middle, so much easier to rotate than the platform itself).
 
 ## Current status
 
