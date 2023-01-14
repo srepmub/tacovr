@@ -87,7 +87,7 @@ order them at the [infento parts shop](https://www.infento.com/parts/)
 - [slip ring](https://botland.store/slip-connectors/7144-slip-ring-3-wire-10a-22mm-5904422360009.html) E21,48
 - [pixy2 camera](https://pixycam.com/pixy2/) E66,31 (x2)
 
-NOTE: stepper motors are probably not a great idea. for my next iteration I will probably go with (teknic clearpath?) servo motors. servo motors are more powerful, closed-loop so don't miss steps, come with builtin drivers, and are practically silent.. as well as quite a bit more expensive.
+NOTE: stepper motors are probably not a great idea. for the next iteration I will probably go with (teknic clearpath?) servo motors. servo motors are more powerful, closed-loop so don't miss steps, come with builtin drivers, and are practically silent.. as well as quite a bit more expensive.
 
 ## 3D-printed parts
 
@@ -115,9 +115,13 @@ NOTE: stepper motors are probably not a great idea. for my next iteration I will
 
 measurements with the android app [physics toolbox accelerometer](https://play.google.com/store/apps/details?id=com.chrystianvieyra.android.physicstoolboxaccelerometer&hl=en&gl=US) show that the acceleration of my feet does not seem to exceed 1G for casual walking, and 2G for pretty rapid walking.
 
+using a hanging weight and PTA again, I found that we may need on the order of 50Nm to rotate with 1G. this would mean that a NEMA34 servo motor would not even cut it. the teknic NEMA56 motors look like they could do this with a gear reducer, but this is getting pretty expensive and somewhat scarily powerful..
+
 ## Current status
 
 ![Screenshot](images/status2.jpg)
+
+I need to think if the rotation can be fixed, or if the current approach is not going to work.
 
 ## TODO
 - detect step-down (speed approaching 0?)
