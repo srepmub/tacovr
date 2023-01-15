@@ -115,15 +115,15 @@ NOTE: stepper motors are probably not a great idea. for the next iteration I wil
 
 measurements with the android app [physics toolbox accelerometer](https://play.google.com/store/apps/details?id=com.chrystianvieyra.android.physicstoolboxaccelerometer&hl=en&gl=US) show that the acceleration of my feet does not seem to exceed 1G for casual walking, and 2G for pretty rapid walking.
 
-using a hanging weight and PTA again, I found that we may need on the order of 50Nm to rotate just the platform itself with 1G. this would mean that a NEMA34 servo motor would not even cut it. the teknic NEMA56 motors look like they could do this with a gear reducer, but this is getting pretty expensive and somewhat scarily powerful..
+using a hanging weight and PTA again, I found that we may need on the order of 50Nm to rotate just the platform itself with 1G. this would mean that a NEMA34 servo motor would not even cut it. 
 
-from this [video on youtube](https://www.youtube.com/watch?v=SSd0HToGUCg), we can calculate approximately the required torque. a quick calculation (assuming an 80kg person on top), gives about 90Nm for platform+person. I will redo this calculation more carefully, but it corresponds with the 50Nm above (the person is way more concentrated in the middle, so much easier to rotate than the platform itself).
+from this [video on youtube](https://www.youtube.com/watch?v=SSd0HToGUCg), we can calculate approximately the required torque. the moment of inertia for a person of 80 kg is similar to a cylinder with diameter of 40cm: 0.5*80*(0.2)^2=1.6. the moment of inertia for the platform of about 10kg is similar to a cylinder with diameter 1.3m: 0.5*10*(0.65)^2=2.1. the rotational acceleration alpha for 1G is 9.8m/s^2 or 39 rad/s^2 if the feet are at 0.25 from the center. the required torque is therefore (1.6+2.1)*39=131Nm.
 
 ## Current status
 
 ![Screenshot](images/status2.jpg)
 
-I need to think if the rotation can be fixed, or if the current approach is not going to work.
+the project is currently on hold, as I think about the required torque for rotation.
 
 ## TODO
 - detect step-down (speed approaching 0?)
