@@ -117,7 +117,7 @@ measurements with the android app [physics toolbox accelerometer](https://play.g
 
 using a hanging weight and PTA again, I found that we may need on the order of 50Nm to rotate just the platform itself with 1G. this would mean that a NEMA34 servo motor would not even cut it. 
 
-from this [video on youtube](https://www.youtube.com/watch?v=SSd0HToGUCg), we can approximate the required torque. the moment of inertia for a person of 80 kg is similar to a cylinder with diameter of 40cm: I=0.5 * m * r^2 = 0.5 * 80 * (0.2)^2=1.6. the moment of inertia of the platform of about 10kg is similar to a cylinder with diameter 1.3m: 0.5*10*(0.65)^2=2.1. the rotational acceleration alpha for 1G is 9.8m/s^2 or 39 rad/s^2 if the feet are at 0.25 from the center. the required torque is therefore (1.6+2.1)*39=131Nm.
+from this [video on youtube](https://www.youtube.com/watch?v=SSd0HToGUCg), we can approximate the required torque. the moment of inertia for a person of 80 kg is similar to a cylinder with diameter of 40cm: I=0.5 * m * r^2 = 0.5 * 80 * (0.2) ^ 2 = 1.6. the moment of inertia of the platform of about 10kg is similar to a cylinder with diameter 1.3m: 0.5 * 10 * (0.65) ^ 2 = 2.1. the rotational acceleration alpha for 1G is 9.8m / s ^ 2 or 39 rad / s ^ 2 if the feet are at 0.25 from the center. the required torque is therefore (1.6 + 2.1) * 39 = 131Nm.
 
 131nm of torque, or something close to it, may be achievable with the most expensive teknic clearpath NEMA56 servo motor (about 12Nm) and a 10:1 gear reducer. this would be quite expensive though and we might get in trouble with the max RPM (goes down by a factor of 10 with this gear reducer).
 
