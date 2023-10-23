@@ -125,7 +125,7 @@ as for power, as a rough estimate, to perform a single step, let's say it takes 
 
 ![Screenshot](images/status2.jpg)
 
-the project is currently on hold, as I think about the required torque for rotation.
+I'm currently looking into a rotation mechanism involving a BLDC (e-bike!) motor (the Vevor 48v/1500W looks nice to start/test with, even if it's not that flat), in combination with an ODrive S1 controller.
 
 ## TODO
 - detect step-down (speed approaching 0?)
