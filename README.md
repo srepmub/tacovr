@@ -119,7 +119,7 @@ using a hanging weight and PTA again, I found that we may need on the order of 5
 
 from this [video on youtube](https://www.youtube.com/watch?v=SSd0HToGUCg), we can approximate the required torque. the moment of inertia for a person of 80 kg is similar to a cylinder with diameter of 40cm: I=0.5 * m * r^2 = 0.5 * 80 * (0.2) ^ 2 = 1.6. the moment of inertia of the platform of about 10kg is similar to a cylinder with diameter 1.3m: 0.5 * 10 * (0.65) ^ 2 = 2.1. the rotational acceleration alpha for 1G is 9.8m / s ^ 2 or 39 rad / s ^ 2 if the feet are at 0.25 from the center. the required torque is therefore (1.6 + 2.1) * 39 = 131Nm.
 
-as for power, as a rough estimate, to perform a single step, let's say it takes 0.2 seconds to move the feet 50 cm. the force applied 20 cm from the center is 131 / 0.2 ~ 650N. work performed is force x distance ~ 650 * 0.5m ~ 325 J. power is work / time or 325 / 0.2 or 1550W.
+from this [video on youtube][https://www.youtube.com/watch?v=KbYejyiRsFw], we can approximate the required power. W = torque * theta, P = W/t. for a single step, P is roughly (131 * 2*pi/3) / 0.2 seconds, or about 1370W.
 
 ## Current status
 
